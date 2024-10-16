@@ -1,0 +1,51 @@
+/* src/SkeletonLoader.css */
+.skeleton-loader {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align */
+    gap: 10px; /* Space between cards */
+    padding: 20px; /* Add padding */
+}
+
+.skeleton-card {
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    width: 250px; /* Fixed width for skeletons */
+    padding: 15px; /* Padding inside cards */
+    animation: pulse 1.5s infinite; /* Pulse animation */
+}
+
+.skeleton-title {
+    width: 80%; /* Width of title skeleton */
+    height: 20px; /* Height of title */
+    background-color: #c0c0c0; /* Darker gray */
+    margin-bottom: 10px; /* Space below title */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.skeleton-stars {
+    width: 40%; /* Width of stars skeleton */
+    height: 15px; /* Height of stars */
+    background-color: #c0c0c0; /* Darker gray */
+    margin-bottom: 10px; /* Space below stars */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.skeleton-owner {
+    width: 60%; /* Width of owner skeleton */
+    height: 15px; /* Height of owner */
+    background-color: #c0c0c0; /* Darker gray */
+    border-radius: 4px; /* Rounded corners */
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #e0e0e0; /* Light gray */
+    }
+    50% {
+        background-color: #c0c0c0; /* Darker gray */
+    }
+    100% {
+        background-color: #e0e0e0; /* Light gray */
+    }
+}

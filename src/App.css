@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(to right, #4c6ef5, #5bc0eb); /* Gradient background */
+  min-height: 60px; /* Make the header smaller */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin); /* Adjust font size */
+  color: white; /* Keep header text white */
+  padding: 10px; /* Add some padding */
+}
+
+h1 {
+  font-size: 2em; /* Adjust heading size */
+  color: #ffffff; /* White heading color for better contrast */
+  margin-bottom: 20px; /* Add space below the heading */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Allow full width */
+  max-width: 600px; /* Limit the width */
+  margin: 0 auto; /* Center align */
+}
+
+li {
+  background: #f8f9fa; /* Light gray background for repository items */
+  margin: 10px; /* Space between items */
+  padding: 15px; /* Padding inside items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+li:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transform: scale(1.02); /* Slight scale-up effect */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: #1d4ed8; /* Soft blue color for links */
+  font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.owner-link {
+  display: block; /* Make the owner link a block element */
+  margin-top: 5px; /* Space above the owner link */
+  color: #555; /* A softer color for the owner's name */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.loading {
+  font-size: 1.5em; /* Increase font size for loading state */
+  color: #111e96; /* Use a custom color for loading text */
+}
+
+.error {
+  color: red; /* Use red for error messages */
+  font-weight: bold; /* Make error messages bold */
+}

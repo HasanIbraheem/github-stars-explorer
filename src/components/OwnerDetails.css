@@ -1,0 +1,33 @@
+/* src/components/OwnerDetails.css */
+.owner-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+.owner-details h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.owner-details img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.owner-details p {
+    font-size: 16px;
+    color: #666;
+}
+
+.owner-details a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.owner-details a:hover {
+    text-decoration: underline;
+}

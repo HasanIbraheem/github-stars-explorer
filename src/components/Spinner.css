@@ -1,0 +1,20 @@
+.spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align spinner and text */
+    margin-top: 20px; /* Space above spinner */
+}
+
+.loader {
+    border: 8px solid rgba(255, 255, 255, 0.3); /* Light border for the spinner */
+    border-radius: 50%; /* Make it circular */
+    border-top: 8px solid #61dafb; /* Top border color */
+    width: 60px; /* Width of the spinner */
+    height: 60px; /* Height of the spinner */
+    animation: spin 1s linear infinite; /* Spin animation */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
